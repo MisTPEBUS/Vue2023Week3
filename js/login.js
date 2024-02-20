@@ -11,7 +11,7 @@ createApp({
     }
   },
   mounted() {
-    alert(document.cookie);
+    
     const username = document.cookie.replace(/(?:(?:^|.*;\s*)username\s*=\s*([^;]*).*$)|^.*$/, '$1');
     const isStoreAccount = document.cookie.replace(/(?:(?:^|.*;\s*)isStoreAccount\s*=\s*([^;]*).*$)|^.*$/, '$1');
     this.user.username = username;
