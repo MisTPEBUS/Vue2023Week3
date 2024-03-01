@@ -33,7 +33,7 @@ createApp({
         
      window.location = './products.html';
       }).catch((err) => {
-        console.log(err)
+       
         alert(err.response.data.message);
       });
     },
